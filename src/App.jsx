@@ -1,12 +1,13 @@
-import "./App.css";
+import "./App.scss";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import { MainNav } from "./components/MainNav";
+
+import { Login } from "./pages/auth/Login/Login";
 
 function App() {
   return (
     <>
-      <MainNav />
+      <Login />
     </>
   );
 }
